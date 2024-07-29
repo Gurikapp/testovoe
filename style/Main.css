@@ -1,0 +1,440 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #231815;
+    height: 40px;
+    width: 100%;
+}
+
+.headerTopHrefs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 100px;
+    width: 1400px;
+}
+
+.headerTop-a {
+    color: #FFFFFF;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.headerMain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+.headerMainBurgermenu{
+    display: none;
+    width: 40px;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.headerMainLogo {
+    height: 56.38px;
+    padding-right: 242.5px;
+}
+
+.headerMainHrefs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    margin-right: 132.5px;
+}
+
+.headerMainHrefs-a {
+    color: #231815;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.headerMainSearch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 88.64px;
+    border: #F5F5F5 1px solid;
+    width: 170px;
+    height: 39px;
+    margin-right: 20px;
+    padding-right: 8.86px;
+}
+
+.headerMainSearchInput {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #231815;
+    border: none;
+    background: none;
+    padding-left: 21px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    width: 70%;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.headerMainSearchInput::placeholder {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #231815;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.headerMainSearchBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+}
+
+.headerMainSearchBtn1600{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #231815;
+    border-radius: 88.64px;
+    padding: 8.86px;
+    margin-right: 23px;
+}
+
+.headerMainCart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+    background-color: #000000;
+    border-radius: 100px;
+    border: none;
+    padding: 7.5px 19.17px;
+    padding-left: 26.17px;
+    width: 138px;
+    position: relative;
+}
+
+.headerMainCartSpan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: #FFFFFF;
+    width: 18px;
+    height: 18px;
+    padding: 0px 5px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.8px;
+    color: #1A1A1A;
+    position: absolute;
+    top: 3px;
+    left: 36px;
+}
+
+.headerMainCart-p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.mainHeader {
+    display: flex;
+    align-items: flex-start;
+    font-family: Korataki;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 61.6px;
+    padding-bottom: 40px;
+    width: 1400px;
+}
+
+.products {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.productsCard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.productsCardPreview {
+    position: relative;
+    transition: transform 0.3s;
+    overflow: hidden;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.productsCardPreviewDiscount {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 100px;
+    border: none;
+    padding: 8px 39.5px;
+    background: #231815;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 22.4px;
+}
+
+.productsCardPreviewLearnmore {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 31px;
+    transform: translateY(100%);
+    transition: transform 0.3s;
+    background: #F5F5F5B2;
+}
+
+.productsCard:hover .productsCardPreviewLearnmore {
+    transform: translateY(0);
+}
+
+.productsCardPreviewLearnmoreBtn {
+    padding: 13px 86.5px;
+    border-radius: 100px;
+    background: #E45302;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    width: 258px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22.4px;
+}
+
+.productsCardDescription {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.productsCardDescriptionAbout {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25.2px;
+    color: #231815;
+}
+
+.productsCardDescriptionPrice {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.productsCardDescriptionPriceMain {
+    color: #231815;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30.8px;
+}
+
+.productsCardDescriptionPriceMain span{
+    color: #E45302;
+}
+
+.productsCardDescriptionPriceDiscount {
+    color: #808080;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30.8px;
+}
+
+.productsCardDescriptionPriceDiscount span {
+    text-decoration: line-through;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #0C0C0C;
+    width: 100%;
+    margin-top: 60px;
+    padding: 61px 0px;
+}
+
+.footerAbout {
+    display: flex;
+    flex-direction: column;
+    gap: 52.9px;
+}
+
+.footerAboutLogo {
+    width: 239px;
+}
+
+.footerAboutDescription, .footerAboutDescription-770 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    color: #808080;
+    width: 322px;
+}
+
+.footerAboutDescription-770{
+    display: none;
+}
+
+.footerAboutDescription a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footerAboutDescription-770 a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footerContent{
+    display: flex;
+    flex-direction: row;
+}
+
+.footerContacts{
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.footerContactsAdress{
+    display: flex;
+    flex-direction: column;
+    padding-left: 110px;
+}
+
+.footer-h3{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.footer-p{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:#F5F5F5;
+    padding-bottom: 20px;
+}
+
+.footerHrefs{
+    display: flex;
+    flex-direction: column;
+    padding-left: 149px;
+}
+
+.footerHrefs a{
+    cursor: pointer;
+}
+
+.footerPolicy{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    padding-left: 192px;
+}
+
+.footerPolicyHrefs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.footerPolicyHrefs a{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #808080;
+}
+
+.footerPolicy-770{
+    display: none;
+    flex-direction: column;
+    padding-top: 70px;
+    gap: 20px;
+}
+
+.footerPolicy-770-a{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #808080;
+}
+
+.footerPolicyPayment{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 33px;
+}
+
+.footerPolicyPaymentHrefs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 33px;
+}
+
+.footerPolicyPayment a{
+    cursor: pointer;
+}

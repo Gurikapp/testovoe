@@ -1,0 +1,293 @@
+@media (max-width: 1600px) {
+    .headerTopHrefs {
+        width: 1240px;
+    }
+
+    .headerMain {
+        width: 1240px;
+    }
+
+    .headerMainSearch{
+        display: none;
+    }
+
+    .headerMainSearchBtn1600{
+        display: flex;
+    }
+
+    .mainHeader{
+        width: 1240px;
+    }
+
+    .products{
+        gap: 30px;
+    }
+
+    .productsCardPreviewImg{
+        width: 287px;
+    }
+
+    .footerAboutLogo{
+        width: 217px;
+    }
+
+    .footerAboutDescription{
+        width: 322px;
+    }
+
+    .footerContactsAdress{
+        padding-left: 70px;
+    }
+
+    .footerHrefs{
+        padding-left: 82px;
+    }
+
+    .footerPolicy{
+        padding-left: 136.98px;
+    }
+}
+
+@media (max-width: 1300px){
+    .headerTop{
+        display: none;
+    }
+
+    .headerMain {
+        display: flex;
+        justify-content: space-between;
+        width: 680px;
+    }
+
+    .headerMainBurgermenu{
+        display: block;
+    }
+
+    .headerMainHrefs{
+        display: none;
+    }
+
+    .headerMainSearchBtn1600{
+        display: none;
+    }
+
+    .headerMainCart{
+        display: none;
+    }
+
+    .headerMainLogo {
+        height: 36px;
+    }
+
+    .mainHeader{
+        width: 680px;
+    }
+
+    .productsCardPreviewImg{
+        width: 320px;
+    }
+
+    .products{
+        gap: 40px;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerAbout{
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 680px;
+    }
+
+    .footerAboutLogo {
+        width: 180px;
+    }
+
+    .footerAboutDescription{
+        display: none;
+    }
+
+    .footerContent{
+        display: flex;
+        justify-content: center;
+        padding-top: 33.23px;
+    }
+
+    .footerContacts{
+        flex-direction: row;
+    }
+
+    .footerPolicy{
+        flex-direction: row;
+        padding-top: 40px;
+        width: 768px;
+        padding-left: 0;
+    }
+
+    .footerPolicyHrefs{
+        display: none;
+    }
+
+    .footerPolicyPayment{
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0px 44px ;
+    }
+
+    .footerAboutDescription-770{
+        display: block;
+        width: 382px;
+    }
+
+    .footerPolicy-770{
+        display: flex;
+    }
+}
+
+@media (max-width: 770px){
+    .headerMain{
+        width: 320px;
+    }
+
+    .headerMainLogo{
+        padding: 0;
+    }
+
+    .mainHeader{
+        width: 320px;
+        font-family: Korataki;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 33.6px;
+        padding-bottom: 24px;
+    }
+
+    main{
+        padding: 0px;
+    }
+
+    .mainHeader{
+        padding-top: 40px;
+    }
+
+    .products {
+        gap: 10px;
+        padding: 24px 0px;
+        padding-bottom: 40px;
+    }
+
+    .productsCard{
+        width: 155px;
+    }
+
+    .productsCardPreviewImg{
+        width: 155px;
+    }
+
+    .productsCardPreviewDiscount{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19.6px;
+        padding: 6px 14.5px;
+    }
+
+    .productsCardPreviewLearnmore{
+        display: none;
+    }
+
+    .productsCardDescriptionAbout {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+
+    .productsCardDescriptionPriceMain {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+
+    .productsCardDescriptionPriceDiscount {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19.6px;
+    }
+
+    footer{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footerAbout{
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 320px;
+    }
+
+    .footerContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 33.23px;
+        width: 320px;
+    }
+
+    .footerContactsAdress{
+        padding: 0;
+    }
+
+    .footerPolicy-770{
+        display: none;
+    }
+
+    .footerContacts{
+        flex-direction: column;
+        padding: 0;
+        gap: 30px;
+    }
+
+    .footerHrefs{
+        padding: 0;
+        padding-top: 30px;
+    }
+
+    .footerPolicy{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        width: 320px;
+        gap: 72px;
+    }
+
+    .footerPolicyHrefs{
+        display: flex;
+        align-items: flex-start;
+        padding: 0;
+        width: 320px;
+        padding-top: 30px;
+    }
+
+    .footerPolicyPayment{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 320px;
+        padding: 0;
+        gap: 0;
+    }
+
+    .footerPolicyPaymentHrefs{
+        gap: 33px;
+    }
+
+    .footerAboutDescription-770{
+        padding-top: 37px;
+        width: 321px;
+    }
+}
